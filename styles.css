@@ -51,3 +51,9 @@ body{
     padding-top: 10px;
     padding-bottom: 10px;
 }
+@media screen and (min-width: 970px) {
+    #testimonialImage{
+        width: 30%;
+    }
+    
+}
