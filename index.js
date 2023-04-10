@@ -1,5 +1,4 @@
 function findBottomOfTestimonialImage(){
-    alert("here");
     let testimonialImage = document.getElementById("testimonialImage");
     let testimonialSelector = document.getElementById("testimonialSelector");
     let imageBottomCoord = testimonialImage.getBoundingClientRect().bottom;
