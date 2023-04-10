@@ -13,4 +13,4 @@ function findBottomOfTestimonialImage(){
 
 window.addEventListener("resize", function() {
     alert("hi");
-});
+}, true);
