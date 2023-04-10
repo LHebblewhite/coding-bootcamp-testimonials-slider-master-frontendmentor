@@ -1,0 +1,53 @@
+body{
+    background-color: white;
+    font-size: 32px;
+    font-family: "Inter";
+}
+.imageSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:1px solid;
+
+}
+#imageContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#patternImage{
+    z-index: 1;
+}
+#testimonialImage{ 
+    width: 65%;
+    height: auto;
+    border-radius: 10px;
+    position: absolute;
+    top: 50px;
+    z-index: 2;
+}
+#testimonialSelector{
+    display: flex;
+    width: 20%;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    z-index: 3;
+    background-color: white;
+    position: absolute;
+
+}
+#prevButton{
+    padding-right: 8px;
+    padding-left: 5px;
+}
+#nextButton{
+    padding-left: 8px;
+    padding-right: 5px;
+}
+#prevButton, #nextButton{ 
+    width: 12%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
