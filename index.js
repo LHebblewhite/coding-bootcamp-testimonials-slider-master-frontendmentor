@@ -8,6 +8,7 @@ function findBottomOfTestimonialImage(){
     let selectorOffset = (selectorBottomCoord-selectorTopCoord)/2;
 
     testimonialSelector.style.top = imageBottomCoord - selectorOffset;
+    alert(imageBottomCoord-selectorOffset)
 }
 
 window.addEventListener("resize", findBottomOfTestimonialImage);
