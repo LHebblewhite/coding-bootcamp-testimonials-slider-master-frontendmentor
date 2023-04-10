@@ -7,32 +7,41 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Coding Bootcamp Testimonials Slider</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+<link href="./styles.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+
 <body>
+  <main>
+    <section class="imageSection">
+      <div id="imageContainer"> 
+        <img id="patternImage" src="./images/pattern-bg.svg">
+        <img id="testimonialImage" src="./images/image-john.jpg">
+      </div>
+      <div id="testimonialSelector">
+        <img id="prevButton" src="./images/icon-prev.svg">
+        <img id="nextButton" src="./images/icon-next.svg">
+      </div>
+    </section>
+    <section class="textSection">
+      <img src="./images/pattern-quotes.svg">
 
-  “ I’ve been interested in coding for a while but never taken the jump, until now. 
-  I couldn’t recommend this course enough. I’m now in the job of my dreams and so 
-  excited about the future. ”
-
-  Tanya Sinclair
-  UX Engineer
-
-  “ If you want to lay the best foundation possible I’d recommend taking this course. 
-  The depth the instructors go into is incredible. I now feel so confident about 
-  starting up as a professional developer. ”
-
-  John Tarkpor
-  Junior Front-end Developer
+    </section>
+    <footer class="testimonialfooter"> 
+      <img src="./images/pattern-curve.svg">
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Liam Hebblewhite</a>.
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </main>
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+
+
+
 </body>
 </html>
+
