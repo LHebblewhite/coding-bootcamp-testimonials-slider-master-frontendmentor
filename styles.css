@@ -2,13 +2,21 @@ body{
     background-color: white;
     font-size: 32px;
     font-family: "Inter";
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+main{
+    display: flex; 
+    flex-direction: column;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .imageSection{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border:1px solid;
 
 }
 #imageContainer{
@@ -51,9 +59,53 @@ body{
     padding-top: 10px;
     padding-bottom: 10px;
 }
+.textSection{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+#quoteSymbol{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+#quoteText{
+    z-index: 1;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 20px;
+    text-align: center;
+    color: hsla(240, 38%, 20%, 0.9);
+    margin-top: -30px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+#testimonialName{ 
+    color: hsl(240, 38%, 20%);
+    font-weight: bold;
+    font-size: 18px; 
+    margin-bottom: 5px;
+}
+#testimonialRole{
+    font-size: 18px; 
+    text-align: center;
+    margin-top: 0px; 
+    padding-top: 0px;
+}
+.attribution{
+    font-size: 15px;
+}
+.testimonialFooter{
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-start;
+}
 @media screen and (min-width: 970px) {
-    #testimonialImage{
-        width: 30%;
+    main{
+        flex-direction: row-reverse;
     }
-    
+    .textSection{
+        border: 1px solid;
+    }
 }
