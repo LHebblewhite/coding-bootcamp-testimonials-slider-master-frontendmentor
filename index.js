@@ -7,7 +7,7 @@ function findBottomOfTestimonialImage(){
     let selectorBottomCoord = selectorCoords.bottom;
     let selectorOffset = (selectorBottomCoord-selectorTopCoord)/2;
 
-    testimonialSelector.style.top = imageBottomCoord - selectorOffset;
+    testimonialSelector.style.top = String(imageBottomCoord - selectorOffset);
     alert(imageBottomCoord-selectorOffset)
 }
 
