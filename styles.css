@@ -36,7 +36,7 @@ body{
     z-index: 3;
     background-color: white;
     position: absolute;
-
+    top: 320px;
 }
 #prevButton{
     padding-right: 8px;
