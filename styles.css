@@ -14,14 +14,12 @@ main{
 }
 .imageSection{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 
 }
 #imageContainer{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -99,11 +97,15 @@ main{
 .testimonialFooter{
     display: flex; 
     flex-direction: column;
-    justify-content: flex-start;
+    border: solid 1px;
 }
-@media screen and (min-width: 970px) {
+@media screen and (min-width: 700px) {
     main{
         flex-direction: row-reverse;
+    }
+    #testimonialImage{
+        width: 30%;
+        right: 50px;
     }
     .textSection{
         border: 1px solid;
