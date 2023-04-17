@@ -124,7 +124,6 @@ main{
         flex: 1;
         padding-left: 5%;
         padding-right: 5%;
-
     }
     .imageSection{
         width: 60%;
@@ -141,11 +140,12 @@ main{
     }
     #quoteText{
         text-align: left;
-        font-size: 22px;
-        width: 130%;
+        font-size: 25px;
+        width: 140%;
         z-index: 4;
-        padding-left: 50%;
+        padding-left: 60%;
         font-weight: lighter;
+        line-height: 1.5;
     }
     #testimonialNameAndRole{
         flex-direction: row;
