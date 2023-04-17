@@ -5,6 +5,8 @@ body{
     margin: 0px;
     padding-left: 0px;
     padding-right: 0px;
+    height: 100vh;
+    width: auto;
 }
 main{
     display: flex; 
@@ -16,7 +18,9 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-
+}
+#phoneBackgroundPattern{
+    width: 100%;
 }
 #imageContainer{
     display: flex;
@@ -25,13 +29,16 @@ main{
 }
 #patternImage{
     z-index: 1;
+    width: 100%;
+    height: auto;
+    padding-top: 25px;
 }
 #testimonialImage{ 
-    width: 65%;
+    width: 70%;
     height: auto;
     border-radius: 10px;
     position: absolute;
-    top: 50px;
+    top: 60px;
     z-index: 2;
 }
 #testimonialSelector{
@@ -97,7 +104,6 @@ main{
 .testimonialFooter{
     display: flex; 
     flex-direction: column;
-    border: solid 1px;
 }
 @media screen and (min-width: 700px) {
     main{
