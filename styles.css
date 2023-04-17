@@ -6,8 +6,7 @@ body{
     padding-left: 0px;
     padding-right: 0px;
     width: 100%;
-    height: 100%;
-    overflow: hidden;
+    min-height: 100%;
 }
 main{
     display: flex; 
@@ -77,14 +76,14 @@ main{
 }
 #quoteText{
     z-index: 1;
-    margin-top: 0px;
     padding-top: 0px;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     color: hsla(240, 38%, 20%, 0.9);
     margin-top: -30px;
-    padding-left: 20px;
-    padding-right: 20px;
+    margin-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
 
 }
 #testimonialName{ 
@@ -100,11 +99,16 @@ main{
     padding-top: 0px;
 }
 .attribution{
-    font-size: 15px;
+    font-size: 10px;
 }
 .testimonialFooter{
     display: flex; 
     flex-direction: column;
+    align-items: normal;
+}
+#testimonialCurve{
+    width: 75%;
+    height: auto;
 }
 @media screen and (min-width: 700px) {
     main{
