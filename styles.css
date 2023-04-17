@@ -131,7 +131,7 @@ main{
         border: 1px solid;
     }
     #testimonialImage{
-        width: 5%;
+        width: 40%;
         position: absolute; 
         right: 10%;
     }
@@ -175,8 +175,11 @@ main{
         flex: 1;
         border: 1px solid;
         height: 100%;
+        justify-content: left;
+        align-items: start;
     }
-    #testimonialCurve{ 
-        width: 50%;
+    #testimonialCurve{
+        height: 120px;  
+        width: auto;
     }
 }
