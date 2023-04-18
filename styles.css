@@ -124,7 +124,6 @@ main{
     height: auto;
 }
 @media screen and (min-width: 992px) {
-    
     main{
         flex-direction: row-reverse;
         flex: 1;
@@ -136,6 +135,7 @@ main{
     }
     #testimonialImage{
         width: 35%;
+        top: 100px;
         position: absolute; 
         right: 10%;
     }
