@@ -94,11 +94,11 @@ main{
 #testimonialName{ 
     color: hsl(240, 38%, 20%);
     font-weight: bold;
-    font-size: 18px; 
+    font-size: 22px; 
     margin-bottom: 5px;
 }
 #testimonialRole{
-    font-size: 18px; 
+    font-size: 22px; 
     text-align: center;
     margin-top: 0px; 
     padding-top: 0px;
@@ -133,6 +133,9 @@ main{
         position: absolute; 
         right: 10%;
     }
+    #testimonialSelector{
+        width: 10%;
+    }
     .textSection{
         width: 35%;
         margin-top: 0px;
@@ -140,7 +143,7 @@ main{
     }
     #quoteText{
         text-align: left;
-        font-size: 25px;
+        font-size: 28px;
         width: 140%;
         z-index: 4;
         padding-left: 60%;
@@ -156,7 +159,7 @@ main{
     #testimonialName{
         margin: 0px;
         padding: 0px;
-        font-size: 15px;
+        font-size: 18px;
         margin-right: 10px;
         padding-left: 7.5%;
     }
@@ -164,7 +167,7 @@ main{
         margin: 0px;
         padding: 0px;
         text-align: left;
-        font-size: 15px;
+        font-size: 18px;
     }
     .testimonialFooter{
         flex: 1;
