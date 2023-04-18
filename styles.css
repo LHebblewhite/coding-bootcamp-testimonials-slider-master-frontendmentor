@@ -58,6 +58,12 @@ main{
     padding-left: 8px;
     padding-right: 5px;
 }
+#nextButton:hover{
+    cursor: pointer;
+}
+#prevButton:hover{
+    cursor: pointer;
+}
 #prevButton, #nextButton{ 
     width: 12%;
     padding-top: 10px;
@@ -134,7 +140,7 @@ main{
         right: 10%;
     }
     #testimonialSelector{
-        width: 5%;
+        width: 10%;
     }
     .textSection{
         width: 35%;
