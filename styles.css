@@ -194,7 +194,6 @@ main{
         position: fixed;
         bottom: 0;
         left: 0;
-        border: 1px solid;
     }
     #testimonialCurve{
         height: 150px;  
