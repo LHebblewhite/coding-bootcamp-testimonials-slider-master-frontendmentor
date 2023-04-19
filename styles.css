@@ -141,6 +141,7 @@ main{
     }
     #testimonialSelector{
         width: 10%;
+        right: 35%;
     }
     .textSection{
         width: 35%;
@@ -150,7 +151,7 @@ main{
     #quoteText{
         text-align: left;
         font-size: 28px;
-        width: 140%;
+        width: 130%;
         z-index: 4;
         padding-left: 60%;
         font-weight: lighter;
