@@ -17,17 +17,15 @@ function findBottomOfTestimonialImage(){
 }
 
 function incrementButtonPress(){
-    alert(testimonialArray[2][0]);
-    if(testimonialSelectorVar < testimonialArray.length){
+    if(testimonialSelectorVar < ((testimonialArray.length)-1)){
         testimonialSelectorVar++;
     } else {
         testimonialSelectorVar = 0;
     }
-    
-    // document.getElementById("testimonialName").innerHTML = testimonialArray[testimonialSelectorVar][0];
-    // document.getElementById("testimonialRole").innerHTML = testimonialArray[testimonialSelectorVar][1];
-    // document.getElementById("quoteText").innerHTML = testimonialArray[testimonialSelectorVar][2];
-    // document.getElementById("testimonialImage").src = testimonialArray[testimonialSelectorVar][3];
+    document.getElementById("testimonialName").innerHTML = testimonialArray[testimonialSelectorVar][0];
+    document.getElementById("testimonialRole").innerHTML = testimonialArray[testimonialSelectorVar][1];
+    document.getElementById("quoteText").innerHTML = testimonialArray[testimonialSelectorVar][2];
+    document.getElementById("testimonialImage").src = testimonialArray[testimonialSelectorVar][3];
 }
 
 function decrementButtonPress(){
@@ -35,13 +33,12 @@ function decrementButtonPress(){
     if(testimonialSelectorVar != 0){
         testimonialSelectorVar--;
     } else {
-        testimonialSelectorVar = testimonialArray.length;
+        testimonialSelectorVar = (testimonialArray.length)-1;
     }
-    alert(testimonialSelectorVar);
-    // document.getElementById("testimonialName").innerHTML = testimonialArray[testimonialSelectorVar][0];
-    // document.getElementById("testimonialRole").innerHTML = testimonialArray[testimonialSelectorVar][1];
-    // document.getElementById("quoteText").innerHTML = testimonialArray[testimonialSelectorVar][2];
-    // document.getElementById("testimonialImage").src = testimonialArray[testimonialSelectorVar][3];   
+    document.getElementById("testimonialName").innerHTML = testimonialArray[testimonialSelectorVar][0];
+    document.getElementById("testimonialRole").innerHTML = testimonialArray[testimonialSelectorVar][1];
+    document.getElementById("quoteText").innerHTML = testimonialArray[testimonialSelectorVar][2];
+    document.getElementById("testimonialImage").src = testimonialArray[testimonialSelectorVar][3];   
 }
 
 window.onload = findBottomOfTestimonialImage();
