@@ -17,14 +17,14 @@ function findBottomOfTestimonialImage(){
 }
 
 function incrementButtonPress(){
-    
+    alert(testimonialArray[0][0]);
     if(testimonialSelectorVar < testimonialArray.length){
         testimonialSelectorVar++;
     } else {
         testimonialSelectorVar = 0;
     }
-    alert(testimonialSelectorVar);
-    document.getElementById("testimonialName").innerHTML = testimonialArray[testimonialSelectorVar][0];
+    
+    // document.getElementById("testimonialName").innerHTML = testimonialArray[testimonialSelectorVar][0];
     // document.getElementById("testimonialRole").innerHTML = testimonialArray[testimonialSelectorVar][1];
     // document.getElementById("quoteText").innerHTML = testimonialArray[testimonialSelectorVar][2];
     // document.getElementById("testimonialImage").src = testimonialArray[testimonialSelectorVar][3];
