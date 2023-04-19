@@ -39,6 +39,7 @@ main{
     position: absolute;
     top: 60px;
     z-index: 2;
+    box-shadow: 0px 15px 5px 0px rgba(180,176,176,0.75);
 }
 #testimonialSelector{
     display: flex;
