@@ -26,6 +26,7 @@ function incrementButtonPress(){
     document.getElementById("testimonialRole").innerHTML = testimonialArray[testimonialSelectorVar][1];
     document.getElementById("quoteText").innerHTML = testimonialArray[testimonialSelectorVar][2];
     document.getElementById("testimonialImage").src = testimonialArray[testimonialSelectorVar][3];
+    alert(testimonialSelectorVar);
 }
 
 function decrementButtonPress(){
@@ -38,6 +39,7 @@ function decrementButtonPress(){
     document.getElementById("testimonialRole").innerHTML = testimonialArray[testimonialSelectorVar][1];
     document.getElementById("quoteText").innerHTML = testimonialArray[testimonialSelectorVar][2];
     document.getElementById("testimonialImage").src = testimonialArray[testimonialSelectorVar][3];
+    alert(testimonialSelectorVar);
 }
 
 window.onload = findBottomOfTestimonialImage();
