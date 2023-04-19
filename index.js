@@ -17,7 +17,7 @@ function findBottomOfTestimonialImage(){
 }
 
 function incrementButtonPress(){
-    alert(testimonialArray[0][0]);
+    alert(testimonialArray[2][0]);
     if(testimonialSelectorVar < testimonialArray.length){
         testimonialSelectorVar++;
     } else {
