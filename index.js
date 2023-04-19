@@ -17,7 +17,6 @@ function findBottomOfTestimonialImage(){
 }
 
 function incrementButtonPress(){
-    alert(testimonialArray[testimonialSelectorVar][0]);
     if(testimonialSelectorVar < testimonialArray.length){
         testimonialSelectorVar++;
     } else {
@@ -27,10 +26,10 @@ function incrementButtonPress(){
     document.getElementById("testimonialRole").innerHTML = testimonialArray[testimonialSelectorVar][1];
     document.getElementById("quoteText").innerHTML = testimonialArray[testimonialSelectorVar][2];
     document.getElementById("testimonialImage").src = testimonialArray[testimonialSelectorVar][3];
+    alert(testimonialSelectorVar);
 }
 
 function decrementButtonPress(){
-    alert("here");
     if(testimonialSelectorVar > testimonialArray.length){
         testimonialSelectorVar--;
     } else {
@@ -40,6 +39,7 @@ function decrementButtonPress(){
     document.getElementById("testimonialRole").innerHTML = testimonialArray[testimonialSelectorVar][1];
     document.getElementById("quoteText").innerHTML = testimonialArray[testimonialSelectorVar][2];
     document.getElementById("testimonialImage").src = testimonialArray[testimonialSelectorVar][3];
+    alert(testimonialSelectorVar);
 }
 
 window.onload = findBottomOfTestimonialImage();
