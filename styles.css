@@ -158,6 +158,9 @@ main{
         font-weight: lighter;
         line-height: 1.5;
     }
+    #quoteSymbol{
+        padding-right: 10%;
+    }
     #testimonialNameAndRole{
         flex-direction: row;
         width: 100%;
