@@ -24,7 +24,7 @@ function incrementButtonPress(){
         testimonialSelectorVar = 0;
     }
     alert(testimonialSelectorVar);
-    // document.getElementById("testimonialName").innerHTML = testimonialArray[testimonialSelectorVar][0];
+    document.getElementById("testimonialName").innerHTML = testimonialArray[testimonialSelectorVar][0];
     // document.getElementById("testimonialRole").innerHTML = testimonialArray[testimonialSelectorVar][1];
     // document.getElementById("quoteText").innerHTML = testimonialArray[testimonialSelectorVar][2];
     // document.getElementById("testimonialImage").src = testimonialArray[testimonialSelectorVar][3];
