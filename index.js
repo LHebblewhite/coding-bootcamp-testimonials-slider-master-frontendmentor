@@ -29,8 +29,7 @@ function incrementButtonPress(){
 }
 
 function decrementButtonPress(){
-    alert(testimonialArray.length)
-    if(testimonialSelectorVar > testimonialArray.length){
+    if(testimonialSelectorVar != 0){
         testimonialSelectorVar--;
     } else {
         testimonialSelectorVar = testimonialArray.length;
